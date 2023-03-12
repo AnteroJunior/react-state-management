@@ -1,13 +1,14 @@
-import { useState } from 'react'
-import './App.css'
+import './App.css';
+import { UseStateHook } from './useState/UseStateHook'
 
 function App() {
 
 
   return (
-    <>
-      Oi mundo!
-    </>
+    <main>
+      <h2>useState</h2>
+      <UseStateHook />
+    </main>
   )
 }
 
